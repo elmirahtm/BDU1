@@ -1,3 +1,4 @@
+import Carousel from '@/components/Carousel'
 import Homepage from '@/components/Homepage'
 import Navmenu from '@/components/Navmenu'
 import React from 'react'
@@ -7,6 +8,7 @@ const page = () => {
     <div>
       <Homepage/>
       <Navmenu/>
+      <Carousel/>
     </div>
   )
 }
